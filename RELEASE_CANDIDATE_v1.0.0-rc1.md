@@ -1,3 +1,5 @@
+> **SUPERSEDED:** This older v1.0.0-rc1 draft is retained solely for audit history. Use [RELEASE_NOTES_v4.0.9.md](RELEASE_NOTES_v4.0.9.md) for the currently prepared release version. No publication or DOI is implied.
+
 # Research code archive — v1.0.0-rc1 (draft release notes)
 
 **Status:** Release candidate documentation only. No GitHub Release, Git tag, Zenodo deposit, or DOI has been created.
