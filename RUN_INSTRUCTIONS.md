@@ -46,3 +46,49 @@ If any check stops, preserve its console output and the generated audit CSV. Do 
 - Phase 15 reconstructed models: author-rerun outputs inspected and archived.
 - Phase 19 corrected forecast: strict verification script is available; rerun and output verification are **pending**.
 - Full raw-Census acquisition-to-results workflow and historical original-release vintages: **not independently reproduced**.
+
+## D. Phase 24 post-hoc training-horizon sensitivity — rerun pending
+
+The original Phase 24 training script is not available. The version in
+`scripts/reconstructed_phase24_training_horizon.R` is explicitly reconstructed
+from the corrected Phase 19 script. It excludes historical training records whose
+target starts more than 14 days after that *training record's origin*, while
+retaining identical 20 final evaluation origins and 15 industries.
+
+From the GitHub repository root, run:
+
+```r
+source("scripts/reconstructed_phase24_training_horizon.R")
+source("scripts/validate_reconstructed_phase24.R")
+```
+
+If the two scripts have instead been individually downloaded into your local
+`AI PREDICTION` folder, use:
+
+```r
+setwd("C:/Users/peter/Downloads/AI PREDICTION")
+source("reconstructed_phase24_training_horizon.R")
+source("validate_reconstructed_phase24.R")
+```
+
+The reconstruction checks both corrected data paths:
+`data/processed/btos_sector_panel_corrected_release_dates.csv`, and
+`Phase19_Methodology_Audit/btos_sector_panel_corrected_release_dates.csv`.
+It never falls back to uncorrected BTOS data.
+
+The validator reads the archived prediction evidence from `results/verified_phase19/`,
+or downloads those two CSVs from this public GitHub repository if absent locally.
+It compares evaluation keys, targets, and every prediction (tolerance 1e-5 pp),
+as well as the RF and ridge sensitivity gains.
+
+Expected *archived* values: restricted RF MAE approximately **1.154348 pp**,
+ridge **1.785210 pp**, persistence **1.277333 pp**. Incremental RF advantage
+of restriction over corrected primary run: **0.010166569 pp**, with exploratory
+origin-bootstrap interval **[−0.009048, +0.029418]** reported in the existing
+archive. The validator **does not independently rerun the bootstrap**.
+
+Outputs will be in `Phase24_Horizon_Sensitivity_Reconstructed/` and
+`reproducibility_checks/`. The script creates **no figures or manuscripts**.
+
+Do not call Phase 24 reproduced until the validator prints `PASS` and
+the corresponding outputs have been inspected.
