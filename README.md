@@ -64,4 +64,4 @@ A [data-rights and historical Git-content review](DATA_RIGHTS_AND_HISTORY_REVIEW
 
 ## License
 
-No license is assigned to this repository at present. Third-party material remains subject to applicable source terms.
+The original research software and author-created software documentation are licensed under the [MIT License](LICENSE), copyright © 2026 Peter Sarpong. **This grant does not extend to third-party data, Census-derived aggregates, external macroeconomic series, or other material for which the author does not hold the necessary rights.** Those materials retain their own applicable source and redistribution terms; see [DATA_SOURCES.md](DATA_SOURCES.md).
