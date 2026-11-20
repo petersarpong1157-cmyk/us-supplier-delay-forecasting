@@ -1,3 +1,5 @@
+> **Superseded draft:** The proposed release version has changed to [v4.1.0](RELEASE_NOTES_v4.1.0.md). This v4.0.9 document is retained as historical preparation notes, not the current release instructions.
+
 # Research Code and Reproducibility Archive — v4.0.9
 
 **Repository:** https://github.com/petersarpong1157-cmyk/us-supplier-delay-forecasting  
