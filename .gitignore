@@ -14,3 +14,15 @@ Phase24_Horizon_Sensitivity/
 .DS_Store
 Thumbs.db
 *.tmp
+
+# Keep author manuscript and figures out of the public code archive
+manuscript/
+*.docx
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+results/figures/
+Phase24_Horizon_Sensitivity_Reconstructed/
+reproducibility_checks/
