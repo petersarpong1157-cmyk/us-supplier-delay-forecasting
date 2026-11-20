@@ -41,3 +41,24 @@ in an R environment with `fixest`. In particular, the archived standard errors,
 small-sample corrections, and complete end-to-end pipeline still require an R
 rerun. The archived 1,170-observation simpler model is not included in this
 reconstruction. Neither script is claimed to be the missing original.
+
+
+## Author-reported RStudio rerun — 2026-11-20
+
+The author executed the reconstructed Phase 15 preparation and econometric
+scripts in RStudio from the `AI PREDICTION` working directory.
+
+Reported console output:
+```text
+Reconstructed 1110 observations across 15 sectors and 74 periods.
+Verified: model point estimates reproduce archived coefficients within 1e-4.
+Cumulative estimate: 0.1286766  SE: 0.02806728
+Note: separate 1170-record one-lag model is not reconstructed here.
+Historical coefficients verified; original production script not recovered.
+```
+
+This confirms a successful **author-reported local R execution** of the
+reconstructed main model, including its cumulative clustered standard error.
+The generated output files have not been independently inspected or committed,
+and this result is not a full end-to-end reproduction of the original analysis.
+The separate 1,170-row one-lag model remains unreconstructed.
