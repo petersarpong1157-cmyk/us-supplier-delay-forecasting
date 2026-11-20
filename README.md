@@ -1,5 +1,9 @@
 # Predicting Supplier Delivery-Time Disruptions Across U.S. Industries
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24406679.svg)](https://doi.org/10.5281/zenodo.24406679)
+
+**Published version:** [v4.1.0 GitHub release](https://github.com/petersarpong1157-cmyk/us-supplier-delay-forecasting/releases/tag/v4.1.0) · **Zenodo DOI:** [10.5281/zenodo.24406679](https://doi.org/10.5281/zenodo.24406679). The DOI identifies the fixed v4.1.0 archive; subsequent edits to `main` are not automatically included in that archived version.
+
 **Author:** Peter Sarpong · Independent Researcher · Gaithersburg, Maryland, USA  
 **Contact:** peter.sarpong1157@gmail.com
 
@@ -50,7 +54,7 @@ A separate sensitivity excluded extended-horizon historical *training* records. 
 - The corrected Phase 19 forecasting script and numerical audit were **successfully rerun locally by the author**; archived accuracy metrics matched to floating-point precision. The rerun predictions and audit CSV have been archived and inspected; the reconstructed Phase 24 sensitivity script was successfully rerun by the author, with exact agreement across all 900 archived predictions; this is not an independent original-data or prospective validation.
 - Archived source tables alone do not constitute a complete replication package; manuscripts and figures are intentionally excluded.
 
-A [data-rights and historical Git-content review](DATA_RIGHTS_AND_HISTORY_REVIEW.md) documents unresolved publication risks. The [v4.1.0 release notes](RELEASE_NOTES_v4.1.0.md) are prepared on the current branch. They do **not** constitute a published GitHub release or DOI. The earlier v1.0.0-rc1 draft is superseded. For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
+A [data-rights and historical Git-content review](DATA_RIGHTS_AND_HISTORY_REVIEW.md) documents unresolved publication risks. The [v4.1.0 release notes](RELEASE_NOTES_v4.1.0.md) are prepared on the current branch. The v4.1.0 GitHub release has now been published and archived at [Zenodo](https://doi.org/10.5281/zenodo.24406679). The earlier v1.0.0-rc1 draft is superseded. For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
 
 ## Declarations
 
