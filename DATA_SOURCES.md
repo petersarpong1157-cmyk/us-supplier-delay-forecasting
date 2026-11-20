@@ -21,3 +21,7 @@ The derived panel and original data-use conditions should be reviewed before red
 ## Release licensing and non-Census columns
 
 The dataset includes non-BTOS/macroeconomic fields such as `gscpi_lagged_revised`, `ppi_level_lagged`, and `gscpi_vintage_selected`. These fields must not be represented as sourced solely from Census; their precise provenance and licensing/reuse terms require review before a blanket dataset license is applied. See [DATA_RIGHTS_AND_HISTORY_REVIEW.md](DATA_RIGHTS_AND_HISTORY_REVIEW.md) and the Census [data citation guidance](https://www.census.gov/about/policies/citation.html).
+
+## License boundary (v4.0.9)
+
+The repository's [MIT License](LICENSE) grants permission for the author's original research **software and associated author-created software documentation**. It does not establish a license for official Census data or third-party macroeconomic inputs, and must not be interpreted as author permission to sublicense datasets that the author does not own. Review the terms and provenance of the source data independently.
