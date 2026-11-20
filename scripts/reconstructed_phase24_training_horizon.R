@@ -32,7 +32,7 @@ dir.create(out, showWarnings = FALSE, recursive = TRUE)
 # Try the user's extracted Phase 2 file first, then a flat copy.
 paths <- c(
   "data/processed/btos_sector_panel_corrected_release_dates.csv",
-  "Phase19_Methodology_Audit/btos_sector_panel_corrected_release_dates.csv",
+  "Phase19_Methodology_Audit/btos_sector_panel_corrected_release_dates.csv"
 )
 path <- paths[file.exists(paths)][1]
 if (is.na(path)) stop("BTOS sector CSV not found. Extract the Phase 2 ZIP first.")
