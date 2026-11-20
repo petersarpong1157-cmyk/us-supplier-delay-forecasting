@@ -1,3 +1,25 @@
+# Current verification summary (2026-11-20)
+
+This section supersedes earlier *interim* pending statements retained below
+for audit chronology.
+
+| Analysis | Current status |
+|---|---|
+| Phase 15 one-lag and three-lag econometrics | Author-rerun completed; archived coefficients and clustered SEs matched |
+| Phase 19 corrected primary historical forecasts | Author-rerun completed; archived MAE/RMSE/bias and prediction dataset inspected |
+| Phase 24 post-hoc restricted-training-horizon | Author-rerun completed; archived 900 model predictions matched exactly; audit CSVs archived |
+| Original Census-download-to-panel pipeline | **Not independently reproduced** |
+| Historical original-release vintages | **Not independently audited** |
+| Prospective forecasting performance | **Not verified** |
+| R environment versions / clean install | **Not yet archived/verified** |
+| GitHub release and Zenodo DOI | **Not created** |
+
+The versioned release candidate is [RELEASE_CANDIDATE_v1.0.0-rc1.md](RELEASE_CANDIDATE_v1.0.0-rc1.md).
+No manuscripts or figures are included in the current branch.
+Prior Git history still contains the previously deleted manuscript text extraction.
+
+---
+
 # Reproducibility status
 
 ## Previously checked
