@@ -1,0 +1,4 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: phase23_dataset_metadata.csv>
+index,dataset_rows,cohort_sectors,positions,valid_delay,missing_delays,publication_missing_positions,non_14day_collection_start
+0,1245,15,83,1200,45,3,0
