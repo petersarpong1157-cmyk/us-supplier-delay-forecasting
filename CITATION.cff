@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "Cite this research code archive. Proposed release v4.1.0; a Zenodo DOI has not yet been assigned."
+message: "Please cite the archived v4.1.0 research software release using the Zenodo DOI."
 title: "Predicting Supplier Delivery-Time Disruptions Across U.S. Industries"
 type: software
 version: 4.1.0
+doi: 10.5281/zenodo.24406679
+date-released: 2026-11-20
 license: MIT
 authors:
   - family-names: Sarpong
