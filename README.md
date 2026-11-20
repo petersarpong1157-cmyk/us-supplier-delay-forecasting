@@ -50,7 +50,7 @@ A separate sensitivity excluded extended-horizon historical *training* records. 
 - The corrected Phase 19 forecasting script and numerical audit were **successfully rerun locally by the author**; archived accuracy metrics matched to floating-point precision. The rerun predictions and audit CSV have been archived and inspected; the reconstructed Phase 24 sensitivity script was successfully rerun by the author, with exact agreement across all 900 archived predictions; this is not an independent original-data or prospective validation.
 - Archived source tables alone do not constitute a complete replication package; manuscripts and figures are intentionally excluded.
 
-A scoped [v1.0.0-rc1 release-candidate note](RELEASE_CANDIDATE_v1.0.0-rc1.md) is available; no release or DOI has been created. For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
+A [data-rights and historical Git-content review](DATA_RIGHTS_AND_HISTORY_REVIEW.md) documents unresolved publication risks. A scoped [v1.0.0-rc1 release-candidate note](RELEASE_CANDIDATE_v1.0.0-rc1.md) is available; no release or DOI has been created. For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
 
 ## Declarations
 
