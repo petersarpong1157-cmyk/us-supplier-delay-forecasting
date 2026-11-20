@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this research repository, please cite the manuscript and the archived repository release when available."
+message: "If you use this code and processed-analysis archive, cite this repository. A versioned release DOI has not yet been assigned."
 title: "Predicting Supplier Delivery-Time Disruptions Across U.S. Industries"
 type: software
 authors:
