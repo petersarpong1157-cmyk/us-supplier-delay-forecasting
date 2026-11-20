@@ -1,0 +1,4 @@
+"model","n","MAE_reproduced","MAE_archived","maximum_abs_prediction_difference","mean_abs_prediction_difference"
+"Persistence",300,1.27733333333333,1.27733333333333,0,0
+"Random forest",300,1.15434827311531,1.15434827311531,0,0
+"Ridge (fixed lambda=5)",300,1.7852101300407,1.7852101300407,0,0
