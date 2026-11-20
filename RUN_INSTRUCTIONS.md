@@ -24,7 +24,7 @@ source("scripts/reconstructed_phase15_one_lag_models.R")
 
 The author's RStudio rerun matched archived coefficients and clustered standard errors for both the 1,110-row distributed-lag and 1,170-row one-lag models. The reconstructed scripts are **not** the missing original scripts.
 
-## B. Phase 19 corrected forecast — independent rerun outstanding
+## B. Phase 19 corrected forecast — local numerical rerun verified
 
 ```r
 source("scripts/phase19_corrected_forecasting.R")
@@ -44,10 +44,10 @@ If any check stops, preserve its console output and the generated audit CSV. Do 
 ## Status
 
 - Phase 15 reconstructed models: author-rerun outputs inspected and archived.
-- Phase 19 corrected forecast: strict verification script is available; rerun and output verification are **pending**.
+- Phase 19 corrected forecast: author-rerun validation passed; prediction CSV and numerical audit are archived.
 - Full raw-Census acquisition-to-results workflow and historical original-release vintages: **not independently reproduced**.
 
-## D. Phase 24 post-hoc training-horizon sensitivity — rerun pending
+## D. Phase 24 post-hoc training-horizon sensitivity — local rerun verified
 
 The original Phase 24 training script is not available. The version in
 `scripts/reconstructed_phase24_training_horizon.R` is explicitly reconstructed
@@ -90,5 +90,22 @@ archive. The validator **does not independently rerun the bootstrap**.
 Outputs will be in `Phase24_Horizon_Sensitivity_Reconstructed/` and
 `reproducibility_checks/`. The script creates **no figures or manuscripts**.
 
-Do not call Phase 24 reproduced until the validator prints `PASS` and
-the corresponding outputs have been inspected.
+The author reran the reconstructed Phase 24 script and validator successfully; all archived prediction differences were zero, and the validation outputs have been uploaded and inspected. These tests do not cover original-release data vintages or prospective generalization.
+
+## E. Environment and checksum capture
+
+From the repository root, run:
+
+```r
+source("scripts/capture_r_environment.R")
+```
+
+This writes `reproducibility_checks/r_package_versions.csv`,
+`r_session_info.txt`, and `input_md5_manifest.csv`. Package versions and
+local file checksums from a rerun should be archived before tagging a release.
+These metadata were **not yet supplied** as of 2026-11-20.
+
+## F. Release notes
+
+See [RELEASE_CANDIDATE_v1.0.0-rc1.md](RELEASE_CANDIDATE_v1.0.0-rc1.md).
+The candidate is **not** a published release or Zenodo archive.
