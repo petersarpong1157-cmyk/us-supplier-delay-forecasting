@@ -256,3 +256,34 @@ The Phase 24 origin-bootstrap interval has not been independently regenerated
 by these scripts. No independent original Census vintage audit has been
 completed. The Phase 24 restriction remains a **post-hoc sensitivity**, not
 a primary selected forecasting specification.
+
+## Phase 24 local RStudio prediction-level reproduction — 2026-11-20
+
+The author ran `reconstructed_phase24_training_horizon.R` and
+`validate_reconstructed_phase24.R` from the local `AI PREDICTION` folder,
+using `data/processed/btos_sector_panel_corrected_release_dates.csv`.
+
+Author-reported console results:
+
+- 20 evaluation origins, 15 industries, 300 predictions for each of the
+  three models (900 model-prediction records).
+- Random forest MAE **1.154348 pp**; persistence **1.277333 pp**;
+  ridge **1.785210 pp**.
+- The maximum and mean absolute prediction differences versus the archived
+  Phase 24 forecast CSV were **zero for all three models**.
+- MAE gain from restricting the historical training horizon versus the
+  corrected primary run: random forest **0.010166569 pp**, ridge
+  **0.009194596 pp**, persistence **0 pp**.
+- The validator printed `PASS: Phase 24 prediction-level sensitivity
+  reproduction matched archived forecasts.`
+
+**Status:** Phase 24 *prediction-level* reproduction succeeded in the
+author's RStudio environment. The newly generated local audit files have
+not been uploaded or independently inspected yet. The archived sensitivity
+bootstrap interval was not independently regenerated here; the sensitivity
+remains post hoc. Historical original-release vintages and complete
+Census-download-to-results reproduction remain outstanding.
+
+This section supersedes older interim statements that the Phase 24
+RStudio rerun is still pending. No manuscripts or figure images are hosted
+on the current repository branch.
