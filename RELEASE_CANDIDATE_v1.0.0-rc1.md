@@ -58,3 +58,7 @@ The citation metadata is in [CITATION.cff](CITATION.cff). **No DOI exists yet** 
 ## Environment evidence update — 2026-11-20
 
 The author supplied the R package versions, `sessionInfo()` output, and an MD5 input manifest, now stored under `results/environment/`. The manifest includes hashes for the corrected derived BTOS panel and Table 5. Two local prediction-file paths were unavailable when the manifest was generated; the relevant prediction data are available in GitHub but not covered by that MD5 manifest. This is useful reproducibility metadata but does not establish an independent raw-data or clean-environment reproduction.
+
+## Release-blocker review (2026-11-20)
+
+See [DATA_RIGHTS_AND_HISTORY_REVIEW.md](DATA_RIGHTS_AND_HISTORY_REVIEW.md). Census BTOS public aggregate releases should be distinguished from confidential respondent microdata; non-Census macro columns in the derived panel still need exact citations and permission review. A manuscript text extraction remains in previous commits of this repository; the current-tree deletion did not remove it from history. Options include a fresh, clean repository for the eventual archival release or an explicitly approved history rewrite of the existing repository. Neither action has been performed.
