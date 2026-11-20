@@ -1,0 +1,17 @@
+                                     m_short                       m_full
+Dependent Var.: supplier_delay_increased_pct supplier_delay_increased_pct
+                                                                         
+delay_l1                  0.4112*** (0.0875)           0.3789*** (0.0896)
+prices_l1                  0.0908** (0.0235)              0.0156 (0.0246)
+prices_l2                                                0.0359. (0.0183)
+prices_l3                                               0.0772** (0.0215)
+Fixed-Effects:  ---------------------------- ----------------------------
+sector                                   Yes                          Yes
+period                                   Yes                          Yes
+_______________ ____________________________ ____________________________
+S.E.: Clustered          by: sector & period          by: sector & period
+Observations                           1,110                        1,110
+R2                                   0.92049                      0.92423
+Within R2                            0.32521                      0.35691
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
