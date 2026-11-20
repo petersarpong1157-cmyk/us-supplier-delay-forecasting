@@ -1,0 +1,6 @@
+"specification","variable","estimate","standard_error","observations"
+"Distributed lag","prices_l1",0.0156112630990785,0.0246092398403755,1110
+"Distributed lag","prices_l2",0.0358741487618812,0.0183227302148348,1110
+"Distributed lag","prices_l3",0.0771912362896355,0.021517282156227,1110
+"Distributed lag","Sum of price lags",0.128676648150595,0.0280672766071252,1110
+"Average-price model","Three-period mean",0.129573378723249,0.0282296508566518,1110
