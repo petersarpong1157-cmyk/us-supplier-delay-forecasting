@@ -46,16 +46,16 @@ The repository owner may use `git-filter-repo` on a fresh local clone with the *
 
 ## 4. Licensing
 
-The repository currently declares no software license. Until an explicit license is granted, other users generally do not have an open-source grant to copy, modify, and redistribute the author's code.
+**Updated for v4.0.9:** The repository now includes an [MIT License](LICENSE) for the author's original research software and associated author-created software documentation, copyright © 2026 Peter Sarpong. This does not grant rights to redistribute third-party datasets, Census-derived material, or external macroeconomic series under MIT.
 
-A possible later option is to license **author-created R code and documentation only** under an appropriate open-source license, explicitly excluding third-party data. A license file should be added only after author approval. The legal status of public Census aggregates and additional macroeconomic data fields must be addressed separately.
+The author has explicitly selected the MIT License for original software. The legal status of public Census aggregates and additional macroeconomic data fields must still be addressed separately. The legal status of public Census aggregates and additional macroeconomic data fields must be addressed separately.
 
 ## 5. Release gate decision
 
 **Hold the final v1.0.0/Zenodo DOI.** A scoped code/data artifact can be prepared now, but before publication:
 1. Confirm the public/nonconfidential status, source citations, and redistribution terms for **each** non-Census column.
 2. Decide whether to preserve the current GitHub repository/history or use a new, clean archive repository.
-3. Choose the intended software license separately from third-party dataset permissions.
+3. **Software license selected:** MIT for original author-created research software; separately verify third-party dataset permissions.
 4. Audit the final tree for manuscript and image files and review the historical manuscript exposure risk.
 5. Preserve the existing numerical verification boundaries: author-run reproducibility from the archived processed panel; **not** independent raw-source or prospective reproduction.
 
