@@ -10,7 +10,7 @@ At the author's request, **manuscripts and figures are excluded** from the repos
 - Six audit CSV files in `results/audits/`.
 - Phase 15 and Phase 19/24 verified numerical outputs and R environment records.
 - Project documentation, data-source notes, reproducibility status, and citation metadata.
-- Prepared [v4.0.9 release notes](RELEASE_NOTES_v4.0.9.md) (release not published by these edits).
+- Prepared [v4.1.0 release notes](RELEASE_NOTES_v4.1.0.md) (release not published by these edits).
 
 ## Excluded on request
 
