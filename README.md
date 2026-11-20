@@ -50,7 +50,7 @@ A separate sensitivity excluded extended-horizon historical *training* records. 
 - The corrected Phase 19 forecasting script and numerical audit were **successfully rerun locally by the author**; archived accuracy metrics matched to floating-point precision. The rerun predictions and audit CSV have been archived and inspected; the reconstructed Phase 24 sensitivity script was successfully rerun by the author, with exact agreement across all 900 archived predictions; this is not an independent original-data or prospective validation.
 - Archived source tables alone do not constitute a complete replication package; manuscripts and figures are intentionally excluded.
 
-A [data-rights and historical Git-content review](DATA_RIGHTS_AND_HISTORY_REVIEW.md) documents unresolved publication risks. The [v4.0.9 release notes](RELEASE_NOTES_v4.0.9.md) are prepared on the current branch. They do **not** constitute a published GitHub release or DOI. The earlier v1.0.0-rc1 draft is superseded. For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
+A [data-rights and historical Git-content review](DATA_RIGHTS_AND_HISTORY_REVIEW.md) documents unresolved publication risks. The [v4.1.0 release notes](RELEASE_NOTES_v4.1.0.md) are prepared on the current branch. They do **not** constitute a published GitHub release or DOI. The earlier v1.0.0-rc1 draft is superseded. For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
 
 ## Declarations
 
