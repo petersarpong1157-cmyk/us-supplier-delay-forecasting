@@ -25,14 +25,12 @@ The distributed-lag fixed-effects analysis found a positive cumulative *associat
 
 ## Research archive
 
-- `manuscript/`: readable **text extraction** of the working manuscript. The editable DOCX is not yet uploaded.
 - `data/processed/`: archived BTOS-derived CSV panel with the period 202520 release date corrected to November 20, 2025.
 - `scripts/`: corrected forecasting and archived Phase 16 scripts.
 - `results/tables/`: eight main exhibit-source CSVs.
 - `results/audits/`: six provenance, correction and sensitivity CSVs.
-- `results/figures/`: **pending binary upload**, not included at present.
 
-**Upload status:** CSVs, R scripts, and manuscript text are committed; manuscript DOCX and PNG figures still require a separate binary-file upload. See [UPLOAD_STATUS.md](UPLOAD_STATUS.md).
+**Repository scope:** Research data, R scripts, exhibit-source CSV tables, and audit records only. Manuscripts and figures are intentionally excluded at the author's request. See [UPLOAD_STATUS.md](UPLOAD_STATUS.md).
 
 ## Historical corrections and sensitivity
 
