@@ -122,3 +122,25 @@ The generated `phase15_one_lag_archive_comparison.csv` and other new files
 have **not yet been uploaded or independently inspected** here.
 This demonstrates a successful author-reported local model reconstruction,
 not a full end-to-end replication from the original Census data downloads.
+
+
+## One-lag output files received and archived — 2026-11-20
+
+The author supplied and the repository now contains:
+
+- `results/verified_phase15/phase15_one_lag_sample.csv` (1,170 records, 51 columns).
+- `results/verified_phase15/phase15_one_lag_coefficients.csv` (four coefficient rows).
+- `results/verified_phase15/phase15_one_lag_archive_comparison.csv` (four comparison rows).
+- `results/verified_phase15/phase15_one_lag_regressions.txt` (formatted R `fixest` estimates).
+
+Independent file inspections confirmed **15 industries, 78 distinct periods, no
+duplicate industry-period keys, and no missing outcome or model lag variables**
+in the reconstructed sample. All four archived coefficient and standard-error
+comparisons differ from the newly generated values by less than 4e-16.
+
+Some source columns carry missing values by design; the complete 51-column
+panel was **not** asserted to have no missing data.
+
+The one-lag output files are now inspected and archived, superseding the
+earlier note that their upload was pending. Manuscripts and figures remain
+excluded. Independent original-source end-to-end reproduction is not established.
