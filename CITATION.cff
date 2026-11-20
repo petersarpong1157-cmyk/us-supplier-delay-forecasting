@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this research repository, please cite the manuscript and the archived repository release when available."
+title: "Predicting Supplier Delivery-Time Disruptions Across U.S. Industries"
+type: software
+authors:
+  - family-names: Sarpong
+    given-names: Peter
+repository-code: "https://github.com/petersarpong1157-cmyk/us-supplier-delay-forecasting"
