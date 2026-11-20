@@ -11,10 +11,10 @@ for audit chronology.
 | Original Census-download-to-panel pipeline | **Not independently reproduced** |
 | Historical original-release vintages | **Not independently audited** |
 | Prospective forecasting performance | **Not verified** |
-| R environment versions / clean install | **Not yet archived/verified** |
+| R environment versions / clean install | **R 4.5.2 and package versions archived**; clean-environment rerun not independently verified |
 | GitHub release and Zenodo DOI | **Not created** |
 
-The versioned release candidate is [RELEASE_CANDIDATE_v1.0.0-rc1.md](RELEASE_CANDIDATE_v1.0.0-rc1.md).
+The current prepared version is [v4.0.9](RELEASE_NOTES_v4.0.9.md); no GitHub release, tag, or DOI has been created by these documentation changes. The former v1.0.0-rc1 document is superseded.
 No manuscripts or figures are included in the current branch.
 Prior Git history still contains the previously deleted manuscript text extraction.
 
