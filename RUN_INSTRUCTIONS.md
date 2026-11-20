@@ -107,5 +107,5 @@ These metadata were **not yet supplied** as of 2026-11-20.
 
 ## F. Release notes
 
-See [RELEASE_CANDIDATE_v1.0.0-rc1.md](RELEASE_CANDIDATE_v1.0.0-rc1.md).
-The candidate is **not** a published release or Zenodo archive.
+See [RELEASE_NOTES_v4.0.9.md](RELEASE_NOTES_v4.0.9.md).
+The v4.0.9 notes are **not** a published release or Zenodo archive.
