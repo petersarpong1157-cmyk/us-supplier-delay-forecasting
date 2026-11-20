@@ -23,16 +23,16 @@ The random forest advantage was **not established** among the 35 outcomes where 
 
 The distributed-lag fixed-effects analysis found a positive cumulative *association* between input-price increases and subsequent supplier-delay increases, **not a causal effect**.
 
-## Planned research archive
+## Research archive
 
-- `manuscript/`: working Word manuscript.
-- `data/processed/`: archived BTOS-derived panel with the period 202520 release date corrected to November 20, 2025.
-- `scripts/`: corrected forecasting and archived validation scripts.
-- `results/tables/`: main exhibit-source tables.
-- `results/figures/`: manuscript graphics.
-- `results/audits/`: provenance and sensitivity checks.
+- `manuscript/`: readable **text extraction** of the working manuscript. The editable DOCX is not yet uploaded.
+- `data/processed/`: archived BTOS-derived CSV panel with the period 202520 release date corrected to November 20, 2025.
+- `scripts/`: corrected forecasting and archived Phase 16 scripts.
+- `results/tables/`: eight main exhibit-source CSVs.
+- `results/audits/`: six provenance, correction and sensitivity CSVs.
+- `results/figures/`: **pending binary upload**, not included at present.
 
-**Important:** A folder's appearance here describes the intended archive organization; check the repository file tree to see which supporting files have actually been uploaded.
+**Upload status:** CSVs, R scripts, and manuscript text are committed; manuscript DOCX and PNG figures still require a separate binary-file upload. See [UPLOAD_STATUS.md](UPLOAD_STATUS.md).
 
 ## Historical corrections and sensitivity
 
