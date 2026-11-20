@@ -144,3 +144,32 @@ panel was **not** asserted to have no missing data.
 The one-lag output files are now inspected and archived, superseding the
 earlier note that their upload was pending. Manuscripts and figures remain
 excluded. Independent original-source end-to-end reproduction is not established.
+
+## Phase 27 final pipeline audit — 2026-11-20
+
+**Current status superseding earlier interim “not yet verified” notes:**
+The reconstructed Phase 15 1,110-observation distributed-lag and 1,170-observation
+one-lag models were **run locally by the author** and their four result files
+for each specification were examined and committed. Their archived coefficient
+and standard-error values matched to numerical precision.
+
+The initial Phase 16 paired-validation script reads the **uncorrected**
+`Phase16_R_Results/` location; it must not be used to verify the corrected
+primary run. A dedicated `scripts/validate_corrected_phase19_forecast.R`
+was added with strict three-model pairing, forecast-origin/target checks, and
+comparison against `results/tables/table5_corrected_accuracy.csv`.
+It has **not yet been executed or verified** in RStudio.
+
+Instructions: [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md).
+
+Outstanding checks:
+1. The corrected Phase 19 forecast must be rerun and its metrics compared
+   to the archived Table 5 numbers.
+2. Historical original-release BTOS values and all survey frame comparability
+   assumptions are not independently verified.
+3. No complete acquisition-to-results reproduction from original Census files.
+4. The extra historical training-horizon restriction (Phase 24) has no
+   independently verified rerunnable script in this GitHub release candidate.
+
+No release/Zenodo DOI has been created and manuscripts and figures remain
+outside the repository.
