@@ -208,3 +208,30 @@ independently end-to-end reproduced.
 
 This update supersedes earlier statements in this document that the Phase 19
 RStudio validation is still pending. Manuscripts and figures remain excluded.
+
+
+## Submitted Phase 19 and Phase 24 evidence inspected and archived — 2026-11-20
+
+The author uploaded the primary corrected prediction CSV, the post-hoc
+restricted-horizon prediction CSV, and the corrected primary accuracy audit.
+These are now committed at `results/verified_phase19/`.
+
+- **Corrected primary** (`phase19_corrected_primary_predictions.csv`):
+  300 matched predictions for each model across 20 origins and 15 sectors;
+  random forest MAE 1.164515, persistence 1.277333, ridge 1.794405.
+- **Training-horizon sensitivity** (`phase24_restricted_horizon_predictions.csv`):
+  same evaluation targets; random forest MAE 1.154348, persistence 1.277333,
+  ridge 1.785210. Not a prospective model-selection result.
+- **Audit** (`phase19_corrected_accuracy_audit.csv`):
+  difference in archived and rerun corrected metrics on the order of 1e-15.
+
+The two 900-row prediction files are **not interchangeable**. Their source
+filenames were deceptively similar; the GitHub names explicitly distinguish
+primary from sensitivity. All 900 evaluation lead times are 11 days.
+See [results/verified_phase19/README.md](results/verified_phase19/README.md).
+
+The numerical prediction files are now inspected and archived, replacing
+the earlier statement that their upload remained pending. However, the Phase 24
+restricted-horizon *training script* has not been independently rerun here.
+A complete original-Census-acquisition and real-time data-vintage reproduction
+remains outstanding. Manuscripts and figures remain excluded.
