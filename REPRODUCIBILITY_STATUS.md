@@ -62,3 +62,26 @@ reconstructed main model, including its cumulative clustered standard error.
 The generated output files have not been independently inspected or committed,
 and this result is not a full end-to-end reproduction of the original analysis.
 The separate 1,170-row one-lag model remains unreconstructed.
+
+## Uploaded Phase 15 local-run outputs — 2026-11-20
+
+The author supplied four files produced by the reconstructed R scripts. They have
+been deposited under `results/verified_phase15/`:
+`phase15_reconstructed_sample.csv` (1110 rows, 53 columns),
+`phase15_reconstructed_coefficients.csv`,
+`phase15_reconstructed_cumulative.csv`, and
+`phase15_reconstructed_regressions.txt`.
+
+Independent checks of the supplied files confirmed 15 industries, 74 model
+periods, unique sector-period keys, and no missing model lag fields.
+The four reported coefficients match the archived estimates; cumulative
+coefficient **0.1286766** and clustered SE **0.02806728** also match.
+
+**CI interpretation:** The uploaded `phase15_reconstructed_cumulative.csv`
+contains a 1.96×SE *normal approximation* interval, rather than a
+finite-cluster t-based interval. Use the interval convention specified in
+the manuscript; do not conflate these two intervals.
+
+The scripts have been rerun by the author and the generated outputs inspected,
+but an independent execution from original Census source files has not
+been completed. Manuscripts and figures are deliberately not included.
