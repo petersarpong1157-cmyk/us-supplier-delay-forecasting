@@ -1,0 +1,4 @@
+"model","gain_restricted_vs_primary"
+"Persistence",0
+"Random forest",0.0101665693384781
+"Ridge (fixed lambda=5)",0.00919459635767487
