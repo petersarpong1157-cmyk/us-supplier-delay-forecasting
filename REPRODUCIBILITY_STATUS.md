@@ -14,7 +14,7 @@ for audit chronology.
 | R environment versions / clean install | **R 4.5.2 and package versions archived**; clean-environment rerun not independently verified |
 | GitHub release and Zenodo DOI | **Not created** |
 
-The current prepared version is [v4.0.9](RELEASE_NOTES_v4.0.9.md); no GitHub release, tag, or DOI has been created by these documentation changes. The former v1.0.0-rc1 document is superseded.
+The current prepared version is [v4.1.0](RELEASE_NOTES_v4.1.0.md); no GitHub release, tag, or DOI has been created by these documentation changes. The former v1.0.0-rc1 document is superseded.
 No manuscripts or figures are included in the current branch.
 Prior Git history still contains the previously deleted manuscript text extraction.
 
