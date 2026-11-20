@@ -17,3 +17,7 @@ Instrument question numbering changed; a historical questionnaire crosswalk foun
 ## Availability
 
 The derived panel and original data-use conditions should be reviewed before redistribution. Independently obtaining official Census releases is preferred for complete replication.
+
+## Release licensing and non-Census columns
+
+The dataset includes non-BTOS/macroeconomic fields such as `gscpi_lagged_revised`, `ppi_level_lagged`, and `gscpi_vintage_selected`. These fields must not be represented as sourced solely from Census; their precise provenance and licensing/reuse terms require review before a blanket dataset license is applied. See [DATA_RIGHTS_AND_HISTORY_REVIEW.md](DATA_RIGHTS_AND_HISTORY_REVIEW.md) and the Census [data citation guidance](https://www.census.gov/about/policies/citation.html).
