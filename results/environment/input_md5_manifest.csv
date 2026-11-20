@@ -1,0 +1,5 @@
+"path","available","md5"
+"data/processed/btos_sector_panel_corrected_release_dates.csv",TRUE,"7dd6a4bdcfb5e9614bdce905d0208868"
+"results/verified_phase19/phase19_corrected_primary_predictions.csv",FALSE,NA
+"results/verified_phase19/phase24_restricted_horizon_predictions.csv",FALSE,NA
+"results/tables/table5_corrected_accuracy.csv",TRUE,"3d4ff42917988684542d6471fb479a06"
