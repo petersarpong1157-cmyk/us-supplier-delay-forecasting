@@ -235,3 +235,24 @@ the earlier statement that their upload remained pending. However, the Phase 24
 restricted-horizon *training script* has not been independently rerun here.
 A complete original-Census-acquisition and real-time data-vintage reproduction
 remains outstanding. Manuscripts and figures remain excluded.
+
+## Phase 24 reconstructed training-horizon script — 2026-11-20
+
+Two new scripts are committed:
+- `scripts/reconstructed_phase24_training_horizon.R` — explicitly reconstructed
+  from the corrected Phase 19 script, with the <=14-day restriction applied
+  **only to historical training records**.
+- `scripts/validate_reconstructed_phase24.R` — checks the reconstructed
+  predictions against all 900 archived Phase 24 predictions, matching model,
+  origin, industry, target date, outcomes, and numerical predictions.
+
+The reconstruction writes to `Phase24_Horizon_Sensitivity_Reconstructed/`,
+does not overwrite the primary forecasting output, and creates no figures.
+The validator can download archived primary and sensitivity prediction CSVs
+from the public GitHub repository if they are absent locally.
+
+**Pending:** Both scripts must be run in RStudio and their results examined.
+The Phase 24 origin-bootstrap interval has not been independently regenerated
+by these scripts. No independent original Census vintage audit has been
+completed. The Phase 24 restriction remains a **post-hoc sensitivity**, not
+a primary selected forecasting specification.
