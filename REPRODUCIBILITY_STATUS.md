@@ -100,3 +100,25 @@ Target archived coefficient values:
 The script validates the expected 1,170 records and writes a coefficient/SE
 comparison CSV. **Execution by the author and verification of those new outputs
 are pending**. No claim of successful one-lag reproduction is made yet.
+
+
+## Author-reported one-lag RStudio verification — 2026-11-20
+
+The author ran `source("reconstructed_phase15_one_lag_models.R")`
+successfully and supplied the console output. The script generated a
+**1,170-record, 15-industry, 78-period** sample. Both industry FE and industry +
+period FE specifications exactly recovered the archived point estimates and
+two-way clustered standard errors to numerical precision:
+
+| Specification | Variable | Coefficient | SE |
+|---|---|---:|---:|
+| Industry FE | delay_lag | 0.52328917 | 0.05650001 |
+| Industry FE | prices_lag | 0.05602846 | 0.02060616 |
+| Industry + Period FE | delay_lag | 0.41178293 | 0.08538190 |
+| Industry + Period FE | prices_lag | 0.08819169 | 0.02328116 |
+
+Author-provided estimate and SE differences were approximately 10^-16.
+The generated `phase15_one_lag_archive_comparison.csv` and other new files
+have **not yet been uploaded or independently inspected** here.
+This demonstrates a successful author-reported local model reconstruction,
+not a full end-to-end replication from the original Census data downloads.
