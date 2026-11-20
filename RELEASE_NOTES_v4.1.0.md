@@ -4,7 +4,7 @@
 **Research:** Predicting Supplier Delivery-Time Disruptions Across U.S. Industries  
 **Author:** Peter Sarpong (Independent Researcher)  
 **Release preparation date:** November 20, 2026  
-**Status:** Prepared on the `main` branch. **Not a published GitHub release or assigned Zenodo DOI.**
+**Status:** Published GitHub release and Zenodo archive. **DOI:** https://doi.org/10.5281/zenodo.24406679.
 
 ## Description
 
@@ -42,4 +42,4 @@ Follow [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). Phase 24 must be labeled **po
 
 ### Citation / DOI
 
-The repository contains `CITATION.cff`. **Do not insert a Zenodo DOI until Zenodo actually issues one.** This file is prepared for a proposed `v4.1.0` GitHub release; creating this document does **not** create a Git tag, GitHub Release, Zenodo deposit or DOI.
+The v4.1.0 GitHub release was published November 20, 2026 and archived at Zenodo under the version-specific DOI **[10.5281/zenodo.24406679](https://doi.org/10.5281/zenodo.24406679)**. Citation metadata are provided in [`CITATION.cff`](CITATION.cff). These post-publication edits on `main` do not retroactively modify the already archived v4.1.0 snapshot.
