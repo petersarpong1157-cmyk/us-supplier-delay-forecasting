@@ -173,3 +173,38 @@ Outstanding checks:
 
 No release/Zenodo DOI has been created and manuscripts and figures remain
 outside the repository.
+
+
+## Phase 19 corrected historical forecasting — author-reported RStudio rerun (2026-11-20)
+
+The author successfully reran `phase19_corrected_forecasting.R` using
+`Phase19_Methodology_Audit/btos_sector_panel_corrected_release_dates.csv`
+and then executed `validate_corrected_phase19_forecast.R`.
+
+The validator reported 20 forecast origins, 15 industries, 300 matched
+predictions for each of three models, and the following metrics:
+
+| Model | MAE (pp) | RMSE (pp) | Bias (pp) |
+|---|---:|---:|---:|
+| Random forest | 1.164515 | 1.522084 | -0.179438 |
+| Persistence | 1.277333 | 1.629990 | -0.073333 |
+| Ridge (fixed lambda=5) | 1.794405 | 2.438261 | -0.412915 |
+
+The author's pasted validation console output confirmed absolute differences
+from archived MAE/RMSE/bias ranging from approximately 1e-17 to 5e-15.
+The validation script printed:
+
+```text
+PASS: corrected forecast metrics matched archived results; RF MAE 1.164515 pp, persistence MAE 1.277333 pp, gain 8.8323%.
+```
+
+**Status:** Corrected Phase 19 historical forecast *numerical metrics* are
+author-rerun verified. The produced audit CSV and per-record predictions
+have not yet been uploaded or independently compared here.
+This does not establish historical original-release BTOS vintage fidelity,
+live prospective accuracy, independent data acquisition, or unexamined
+forecast generalization. The current work should not be characterized as
+independently end-to-end reproduced.
+
+This update supersedes earlier statements in this document that the Phase 19
+RStudio validation is still pending. Manuscripts and figures remain excluded.
