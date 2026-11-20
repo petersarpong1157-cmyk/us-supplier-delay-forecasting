@@ -85,3 +85,18 @@ the manuscript; do not conflate these two intervals.
 The scripts have been rerun by the author and the generated outputs inspected,
 but an independent execution from original Census source files has not
 been completed. Manuscripts and figures are deliberately not included.
+
+
+## One-lag reconstruction — added 2026-11-20
+
+The reconstructed `scripts/reconstructed_phase15_one_lag_models.R` was added
+to rebuild the 1,170-observation one-lag sample on the uncompressed 83-period
+calendar and estimate separate industry FE and industry + period FE specifications.
+
+Target archived coefficient values:
+- Industry FE: delay lag **0.5232891711**; price lag **0.0560284569**.
+- Industry + period FE: delay lag **0.4117829330**; price lag **0.0881916928**.
+
+The script validates the expected 1,170 records and writes a coefficient/SE
+comparison CSV. **Execution by the author and verification of those new outputs
+are pending**. No claim of successful one-lag reproduction is made yet.
