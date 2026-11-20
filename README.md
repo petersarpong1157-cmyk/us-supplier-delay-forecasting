@@ -26,7 +26,7 @@ The distributed-lag fixed-effects analysis found a positive cumulative *associat
 ## Research archive
 
 - `data/processed/`: archived BTOS-derived CSV panel with the period 202520 release date corrected to November 20, 2025.
-- `scripts/`: corrected forecasting and archived Phase 16 scripts.
+- `scripts/`: corrected forecasting, archived Phase 16 scripts, and newly reconstructed Phase 15 sample-preparation and fixed-effects scripts (not the original missing scripts).
 - `results/tables/`: eight main exhibit-source CSVs.
 - `results/audits/`: six provenance, correction and sensitivity CSVs.
 
