@@ -29,6 +29,8 @@ The distributed-lag fixed-effects analysis found a positive cumulative *associat
 - `scripts/`: corrected forecasting, archived Phase 16 scripts, and newly reconstructed Phase 15 sample-preparation and fixed-effects scripts (not the original missing scripts).
 - `results/tables/`: eight main exhibit-source CSVs.
 - `results/audits/`: six provenance, correction and sensitivity CSVs.
+- `results/verified_phase15/`: reconstructed econometric samples, model tables, and coefficient verification.
+- `results/verified_phase19/`: corrected primary predictions and distinct post-hoc training-horizon sensitivity predictions, with numerical audit and provenance notes.
 
 **Repository scope:** Research data, R scripts, exhibit-source CSV tables, and audit records only. Manuscripts and figures are intentionally excluded at the author's request. See [UPLOAD_STATUS.md](UPLOAD_STATUS.md).
 
@@ -45,7 +47,7 @@ A separate sensitivity excluded extended-horizon historical *training* records. 
 - The same historical test set was examined repeatedly, so intervals are exploratory rather than confirmatory.
 - Survey questionnaire and business population coverage changed during the study window.
 - The reconstructed Phase 15 models were successfully rerun locally by the author and their output files inspected; the original Census-download-to-result pipeline is **not** independently reproduced.
-- The corrected Phase 19 forecasting script and numerical audit were **successfully rerun locally by the author**; archived accuracy metrics matched to floating-point precision. The rerun predictions and audit CSV still await archival.
+- The corrected Phase 19 forecasting script and numerical audit were **successfully rerun locally by the author**; archived accuracy metrics matched to floating-point precision. The rerun predictions and audit CSV have been archived and inspected; the Phase 24 sensitivity script has not yet been independently rerun.
 - Archived source tables alone do not constitute a complete replication package; manuscripts and figures are intentionally excluded.
 
 For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
