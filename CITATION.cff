@@ -3,6 +3,7 @@ message: "Cite this research code archive. Proposed release v4.0.9; a Zenodo DOI
 title: "Predicting Supplier Delivery-Time Disruptions Across U.S. Industries"
 type: software
 version: 4.0.9
+license: MIT
 authors:
   - family-names: Sarpong
     given-names: Peter
