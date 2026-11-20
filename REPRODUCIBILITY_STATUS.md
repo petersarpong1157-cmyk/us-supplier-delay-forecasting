@@ -287,3 +287,9 @@ Census-download-to-results reproduction remain outstanding.
 This section supersedes older interim statements that the Phase 24
 RStudio rerun is still pending. No manuscripts or figure images are hosted
 on the current repository branch.
+
+## Phase 24 verification files deposited — 2026-11-20
+
+The author supplied and the repository now includes the locally generated `results/verified_phase19/phase24_reproduction_check.csv` and `results/verified_phase19/phase24_restriction_gain.csv`. The uploaded files were inspected: all 300 predictions per model reproduce the archived predictions with zero maximum and mean differences. The training restriction gives additional MAE gains versus the corrected primary run of 0.0101665693384781 percentage points (random forest), 0.00919459635767487 (ridge), and zero (persistence).
+
+**Scope:** Exact prediction-level agreement is verified for the archived dataset and model implementation. These results do not independently verify the original BTOS data vintages, a completely independent raw-data replication, or prospective performance. The earlier bootstrap uncertainty estimate was not recomputed in this specific check. Manuscripts and figures remain excluded from the current GitHub branch.
