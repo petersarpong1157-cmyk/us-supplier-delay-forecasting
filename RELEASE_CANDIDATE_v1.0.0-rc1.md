@@ -38,7 +38,7 @@ The reconstructed Phase 15 and 24 scripts were developed from archived results a
 3. **Survey comparability:** Instrument question numbering, business population coverage and weighting/denominators are not fully established as invariant.
 4. **Forecast generalization:** Repeated examination of the retrospective test period means inference is exploratory; the forecasts are not prospectively validated.
 5. **Data rights:** Review redistribution terms for any material derived from third parties prior to release. The included derived data are not an official U.S. Census product.
-6. **Software environment:** Dependencies are identified, but historical package versions and an independent clean-environment rerun have not been archived.
+6. **Software environment:** The author's R 4.5.2 session and six installed package versions are now archived in `results/environment/`; an independent clean-environment rerun and full historical dependency lockfile are still outstanding.
 7. **Prior Git history:** A manuscript text extraction was deleted from the current branch but exists in earlier Git history. A public tagged release of this repository would not erase that history.
 
 These limitations must be clearly preserved in any external archive or citation.
@@ -54,3 +54,7 @@ The citation metadata is in [CITATION.cff](CITATION.cff). **No DOI exists yet** 
 ## Release decision
 
 **HOLD** on declaring this a complete reproducibility archive or minting a final DOI. This repository may later be released as a carefully scoped *code and processed-analysis archive* provided the remaining provenance/licensing issues are addressed and the limitations remain visible.
+
+## Environment evidence update — 2026-11-20
+
+The author supplied the R package versions, `sessionInfo()` output, and an MD5 input manifest, now stored under `results/environment/`. The manifest includes hashes for the corrected derived BTOS panel and Table 5. Two local prediction-file paths were unavailable when the manifest was generated; the relevant prediction data are available in GitHub but not covered by that MD5 manifest. This is useful reproducibility metadata but does not establish an independent raw-data or clean-environment reproduction.
