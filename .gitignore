@@ -1,0 +1,16 @@
+# R and IDE state
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+*.Rproj.user
+
+# Locally generated outputs
+Phase16_R_Results/
+Phase19_Corrected_Forecast_Results/
+Phase24_Horizon_Sensitivity/
+
+# Temporary/local files
+.DS_Store
+Thumbs.db
+*.tmp
