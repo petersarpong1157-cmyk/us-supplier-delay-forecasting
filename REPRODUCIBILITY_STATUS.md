@@ -1,3 +1,5 @@
+> **Publication update — November 20, 2026:** [GitHub v4.1.0](https://github.com/petersarpong1157-cmyk/us-supplier-delay-forecasting/releases/tag/v4.1.0) has been published and archived with the **[Zenodo DOI 10.5281/zenodo.24406679](https://doi.org/10.5281/zenodo.24406679)**. This supersedes older interim claims below that no release or DOI exists. Numerical verification limitations and third-party data-rights cautions are unchanged. Changes to `main` after the release are not part of the deposited v4.1.0 snapshot.
+
 # Current verification summary (2026-11-20)
 
 This section supersedes earlier *interim* pending statements retained below
