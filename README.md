@@ -45,7 +45,7 @@ A separate sensitivity excluded extended-horizon historical *training* records. 
 - The same historical test set was examined repeatedly, so intervals are exploratory rather than confirmatory.
 - Survey questionnaire and business population coverage changed during the study window.
 - The reconstructed Phase 15 models were successfully rerun locally by the author and their output files inspected; the original Census-download-to-result pipeline is **not** independently reproduced.
-- The corrected Phase 19 forecasting script has a dedicated numerical audit, but the rerun and comparison remain **pending**.
+- The corrected Phase 19 forecasting script and numerical audit were **successfully rerun locally by the author**; archived accuracy metrics matched to floating-point precision. The rerun predictions and audit CSV still await archival.
 - Archived source tables alone do not constitute a complete replication package; manuscripts and figures are intentionally excluded.
 
 For step-by-step local replication see [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md). For verified versus pending outputs see [REPRODUCIBILITY_STATUS.md](REPRODUCIBILITY_STATUS.md).
