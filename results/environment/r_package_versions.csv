@@ -1,0 +1,7 @@
+"package","installed","version"
+"dplyr",TRUE,"1.2.1"
+"fixest",TRUE,"0.14.2"
+"glmnet",TRUE,"5.2"
+"ranger",TRUE,"0.18.0"
+"ggplot2",TRUE,"4.0.4"
+"Matrix",TRUE,"1.7.6"
