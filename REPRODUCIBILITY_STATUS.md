@@ -315,3 +315,28 @@ on the current repository branch.
 The author supplied and the repository now includes the locally generated `results/verified_phase19/phase24_reproduction_check.csv` and `results/verified_phase19/phase24_restriction_gain.csv`. The uploaded files were inspected: all 300 predictions per model reproduce the archived predictions with zero maximum and mean differences. The training restriction gives additional MAE gains versus the corrected primary run of 0.0101665693384781 percentage points (random forest), 0.00919459635767487 (ridge), and zero (persistence).
 
 **Scope:** Exact prediction-level agreement is verified for the archived dataset and model implementation. These results do not independently verify the original BTOS data vintages, a completely independent raw-data replication, or prospective performance. The earlier bootstrap uncertainty estimate was not recomputed in this specific check. Manuscripts and figures remain excluded from the current GitHub branch.
+
+## R runtime, package versions, and input MD5 manifest — 2026-11-20
+
+The author ran `scripts/capture_r_environment.R` in RStudio and supplied
+three files. They were inspected and deposited in `results/environment/`:
+
+- `r_package_versions.csv`: all six required packages installed:
+  dplyr 1.2.1, fixest 0.14.2, glmnet 5.2, ranger 0.18.0,
+  ggplot2 4.0.4, Matrix 1.7.6.
+- `r_session_info.txt`: R 4.5.2 (2025-10-31 ucrt),
+  Windows 11 x64 build 26200, English-US locale,
+  America/New_York time zone, with loaded namespace versions.
+- `input_md5_manifest.csv`: corrected BTOS panel MD5
+  `7dd6a4bdcfb5e9614bdce905d0208868`; archived Table 5 MD5
+  `3d4ff42917988684542d6471fb479a06`.
+
+The two verified prediction files are marked **unavailable in the author's
+local path manifest**; the corresponding files are already committed under
+`results/verified_phase19/`. Do not interpret the local missing values as
+GitHub missing files, or their MD5s as verified.
+
+This captures environment provenance, but there has still been **no
+independent clean-environment rerun**, no independently verified raw-Census
+transformation, and no original-release-vintage audit. No GitHub release or
+Zenodo DOI has been created.
